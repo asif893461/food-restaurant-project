@@ -97,7 +97,7 @@ text-align: center;
     margin-top: 30px;
     display: flex;
     justify-content:space-between;
-
+    /* font-family: Work Sans; */
 }
 .card{
     max-width: 250px;
