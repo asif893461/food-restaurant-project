@@ -126,3 +126,63 @@ padding: 7px 16px 7px 16px;
 border-radius: 8px;
 background: rgba(82, 195, 3, 0.15);
 }
+
+.footer-container{
+    height: 348px;
+    background-image: url("../assets/social-bg.png");
+background-size: cover;
+background-position: center;
+    justify-content: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+}
+.foot-caption{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 27px;
+font-weight: 500px;
+line-height: 32px;
+letter-spacing: 0%;
+margin: 24px 0px;
+}
+.foot-title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+opacity: 0.6;
+gap: 12;
+padding: 0px;
+margin: 13px 0px;
+}
+.btn-foot{
+ color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+.social-icons a {
+  color: #000;
+  font-size: 28px;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #e63946;
+}
+
